@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(205, 237, 244);
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-wrap: normal;
+    font-style: bold;
+}
+h1{
+    color: rgb(19, 19, 23);
+    border: 3px solid rgb(28, 174, 210);
+    margin: 0 auto;
+    padding: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    width: 35%;
+}
+fieldset{
+    border: 2px solid rgb(200, 235, 244);
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: silver;
+    border-radius: 10px;
+    block-size: large;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    background-color: rgb(205, 237, 244);
+    border-radius: 10px;
+}
+
+input, select, textarea{
+    border: 2px solid rgb(112, 126, 129);
+    border-radius: 10px;
+    padding: 10px;
+}
+input[type="submit"],input[type="reset"]{
+    background-color: rgb(28, 174, 210);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgb(194, 208, 251);
+    color: black;
+    border: 2px solid rgb(112, 126, 129);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(28, 174, 210);
+    color: white;
+}
+
+label{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(205, 237, 244);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400%;
+    margin-bottom: 50%;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+    
