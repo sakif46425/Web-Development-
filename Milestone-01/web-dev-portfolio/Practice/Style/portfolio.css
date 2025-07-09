@@ -90,6 +90,10 @@ nav li a{
     color: #757575;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .secondary-bg{
     background-color: #fff8f3;
 }
@@ -103,12 +107,16 @@ main{
     margin: 0 auto;
 }
 
+.main section{
+     margin-top: 130px;
+}
+
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
     text-align: center;
-    margin-top: 130px;
+   
 
 
 }
@@ -120,4 +128,66 @@ main{
 
 .item-description{
     font-weight: 600;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgb(0,0,0,0.06);
+    border-radius: 5px;
+
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.experience-description, experience-sub-title{
+    color: #757575
+
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+
+
+}
+
+input[type="text"], input[type="email"], textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 40px;
+    border: none;
+    
 }
