@@ -1,0 +1,17 @@
+let myScore = 70;
+let myFriendScore = 80;
+
+if (myScore > 80) {
+    if (myFriendScore > 80)
+    {
+        console.log("Go for a lunch");
+    }else if (myFriendScore >= 60){
+        console.log ("Tell your friend, good luck next time.");
+    } else if (myFriendScore >= 40){
+        console.log("Keep your friends messenge unseen");
+    } else {
+        console.log("Block your friend");
+    }
+} else {
+    console.log("Go home and sleep and act sad");
+}
