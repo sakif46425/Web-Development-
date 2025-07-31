@@ -1,5 +1,3 @@
-//subtask-1: find all odd numbers from 61 to 100
-
 console.log("Odd numbers between 61 to 100: ");
 for (let num = 61; num <= 100; num++)
 {
