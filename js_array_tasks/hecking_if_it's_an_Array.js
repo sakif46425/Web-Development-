@@ -1,4 +1,3 @@
-
 const books = ["JavaScript: The Good Parts", "Clean Code"];
 const title = "JavaScript: The Definitive Guide";
 const pageCount = 432;
