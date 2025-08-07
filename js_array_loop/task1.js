@@ -10,3 +10,4 @@ const color = ['red', 'blue', 'green', 'yellow', 'organge'];
 
 const reversedColors = color.reverse();
 console.log(reversedColors);
+
