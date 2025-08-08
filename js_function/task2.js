@@ -1,4 +1,4 @@
-function number (num)
+function make_avg (num)
 {
     if (num % 2 === 0)
     {
@@ -12,5 +12,5 @@ function number (num)
     }
 }
 
-console.log(number(20));
-console.log(number(15));
+console.log(make_avg(20));
+console.log(make_avg(15));
